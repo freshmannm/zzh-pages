@@ -1,7 +1,7 @@
 module.exports = {
     title: '渣渣辉记录文档',// 设置网站标题
     description: '文档',
-    base: '/',   // 设置站点根路径
+    base: '/docs',   // 设置站点根路径
     dest: './docs',  // 设置输出目录
     port: 8086,
     head: [], // 增加一个自定义的 favicon // 增加一个自定义的 favicon],
