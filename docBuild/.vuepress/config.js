@@ -10,16 +10,17 @@ module.exports = {
         // 添加导航栏
         nav: [
             {text: 'home', link: '/'},
-            {text: '日常', link: '/foo/'},
+            {text: '日常', link: '/day/notes'},
         ],
         // 为以下路由添加左侧边栏
         sidebar: {
-            '/foo/': [
+            '/day/': [
                 {
-                    title: '记录',
+                    title: '记录笔记',
                     collapsable: false,
                     children: [
-                        {title: '代码块', path: '/foo/'},
+                        {title: '笔记', path: '/day/notes'},
+                        {title: '代码块', path: '/day/codeBlocks'},
                     ]
                 }
             ],
