@@ -21,11 +21,19 @@ module.exports = {
                     children: [
                         {title: '笔记', path: '/day/notes'},
                         {title: '代码块', path: '/day/codeBlocks'},
+                        {title: 'Logic_flow', path: '/day/Logic_flow'},
                     ]
                 }
             ],
         },
         sidebarDepth: 1,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
+    },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@alias': '/docBuild/.vuepress/public/images'
+            }
+        }
     }
 }
